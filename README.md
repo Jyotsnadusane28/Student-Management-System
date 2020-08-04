@@ -1,7 +1,13 @@
 # Student-Management-System
-The Student Management System in Python helps in easy management of student statistics with the help of libraries like:
-1. bs4
-2. NumPy 
-3. matplotlib 
-4. Oracle etc
+The Student Management System in Python helps in easy management of student statistics. 
 In this project, it contains only an admin side.
+
+# Prerequisite for this project -
+only you required to install oracle and libraries such as:
+1) cx_Oracle 
+2) bs4
+3) requests
+4) socket
+5) matplotlib
+6) numpy
+
