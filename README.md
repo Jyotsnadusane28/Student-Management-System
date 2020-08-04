@@ -3,4 +3,5 @@ The Student Management System in Python helps in easy management of student stat
 1. bs4
 2. NumPy 
 3. matplotlib 
+4. Oracle etc
 In this project, it contains only an admin side.
