@@ -3,7 +3,7 @@ The Student Management System in Python helps in easy management of student stat
 In this project, it contains only an admin side.
 
 # Prerequisite for this project -
-only you required to install oracle and libraries such as:
+only you required to install oracle and python libraries such as:
 1) cx_Oracle 
 2) bs4
 3) requests
