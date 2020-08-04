@@ -25,7 +25,7 @@ def f1():   #add window
 def f2():   #add function
 	try:
 		con = None
-		con = cx_Oracle.connect('system/abc123')
+		con = cx_Oracle.connect('username/password')
 		rno = int(er.get())
 		sname = en.get()
 		smarks = int(em.get())
@@ -111,7 +111,7 @@ def f4():
 	stdata.delete(1.0,END)
 	con = None
 	try:
-		con = cx_Oracle.connect('system/abc123')
+		con = cx_Oracle.connect('username/password')
 		cursor = con.cursor()
 		sql = "select * from student"
 		cursor.execute(sql)
@@ -140,7 +140,7 @@ def f6():  #mainFrame upadte button
 def f7():   #update code 
 	con = None
 	try:
-		con = cx_Oracle.connect('system/abc123')	
+		con = cx_Oracle.connect('username/password')	
 		rno = int(uer.get())
 		sname = uen.get()
 		smarks =int(uem.get())
@@ -219,7 +219,7 @@ def f9():                             #delete (main frame button)
 
 def f10():				#delete (delete window delete button)
 	try:
-		con = cx_Oracle.connect('system/abc123')
+		con = cx_Oracle.connect('username/password') #enter your username and password 
 		#print("connected")
 		rno = int(der.get())
 		if rno>=1:
@@ -253,7 +253,7 @@ def f11():
 
 def f12(): #graph
 
-	con = cx_Oracle.connect('system/abc123')
+	con = cx_Oracle.connect('username/password')
 	cursor = con.cursor()
 	sql = "select * from student"
 	cursor.execute(sql)
